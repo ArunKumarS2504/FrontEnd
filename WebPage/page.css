@@ -1,0 +1,494 @@
+.home{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.home .div{
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1600px;
+    height: 6669px;
+    position: relative;
+}
+.home .header {
+    position: absolute;
+    width: 1600px;
+    height: 127px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+  }
+  .home .top-bar {
+    width: 1600px;
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+  .home .overlap {
+    position: relative;
+    height: 50px;
+  }
+  .home .rectangle {
+    position: absolute;
+    width: 837px;
+    height: 50px;
+    top: 0;
+    left: 763px;
+    background-color: var(--style-3);
+  }
+    .home .img {
+    position: absolute;
+    width: 805px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    background-color: #4691f2;
+  }
+  .home .phone {
+    position: absolute;
+    width: 153px;
+    height: 26px;
+    top: 11px;
+    left: 245px;
+  }
+  .home .text-wrap {
+    position: absolute;
+    top: 0;
+    left: 31px;
+    font-family: "Mulish-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 26px;
+    white-space: nowrap;
+  }
+  .home .phone-call {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 2px;
+    left: 0;
+  }
+  .home .email {
+    position: absolute;
+    width: 190px;
+    height: 26px;
+    top: 11px;
+    left: 426px;
+  }
+  
+  .home .example-gmail-com {
+    position: absolute;
+    top: 0;
+    left: 32px;
+    font-family: "Mulish-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 26px;
+    white-space: nowrap;
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+  .home .group {
+    position: absolute;
+    width: 22px;
+    height: 17px;
+    top: 5px;
+    left: 0;
+  }
+  
+  .home .social-media {
+    position: absolute;
+    width: 162px;
+    height: 32px;
+    top: 9px;
+    left: 1193px;
+  }
+  
+  .home .socia-l-media {
+    position: relative;
+    height: 32px;
+  }
+  
+  .home .img-wrapper {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 50px;
+  }
+  
+  .home .facebook {
+    position: absolute;
+    width: 22px;
+    height: 21px;
+    top: 5px;
+    left: 5px;
+  }
+  
+  .home .overlap-group {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 0;
+    left: 43px;
+    background-color: #ffffff;
+    border-radius: 50px;
+  }
+  
+  .home .logo-twitter {
+    position: absolute;
+    width: 21px;
+    height: 20px;
+    top: 6px;
+    left: 5px;
+  }
+  
+  .home .youtube-wrapper {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 0;
+    left: 87px;
+    background-color: #ffffff;
+    border-radius: 50px;
+  }
+  
+  .home .ci-youtube {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 7px;
+    left: 7px;
+  }
+  
+  .home .instagram-wrapper {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 0;
+    left: 130px;
+    background-color: #ffffff;
+    border-radius: 50px;
+  }
+  
+  .home .design-instagram {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 8px;
+    left: 8px;
+  }
+  .home .login {
+    position: absolute;
+    width: 161px;
+    height: 32px;
+    top: 9px;
+    left: 1014px;
+  }
+  
+  .home .mdi-user {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 5px;
+    left: 5px;
+  }
+  
+  .home .text-wrapper-2 {
+    position: absolute;
+    height: 26px;
+    top: 3px;
+    left: 42px;
+    font-family: "Mulish-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 26px;
+    white-space: nowrap;
+  }
+  
+  .home .line {
+    position: absolute;
+    width: 2px;
+    height: 26px;
+    top: 12px;
+    left: 1183px;
+  }
+
+  .home .navigation{
+    position: absolute;
+    width: 1112px;
+    height: 52px;
+    top: 75px;
+    left: 245px;
+  }
+  .home .lets-talk {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 14px 26px;
+    position: absolute;
+    top: 0;
+    left: 938px;
+    background-color: #4691f2;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+  
+  .home .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Mulish-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .home .img-2 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .home .lets-talk-2 {
+    position: absolute;
+    width: 54px;
+    height: 52px;
+    top: 0;
+    left: 864px;
+  }
+  
+  .home .ellipse {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 40px;
+    left: 392px;
+    background-color: #4691f2;
+    border-radius: 5px;
+  }
+  
+  .home .navbar {
+    position: absolute;
+    width: 473px;
+    height: 28px;
+    top: 12px;
+    left: 371px;
+  }
+  
+  .home .text-wrapper-4 {
+    left: 0;
+    color: #4691f2;
+    position: absolute;
+    top: 0;
+    font-family: "Mulish-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .home .text-wrapper-5 {
+    left: 81px;
+    position: absolute;
+    top: 0;
+    font-family: "Mulish-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .home .text-wrapper-6 {
+    left: 192px;
+    position: absolute;
+    top: 0;
+    font-family: "Mulish-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .home .text-wrapper-7 {
+    left: 424px;
+    position: absolute;
+    top: 0;
+    font-family: "Mulish-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .home .text-wrapper-8 {
+    left: 339px;
+    position: absolute;
+    top: 0;
+    font-family: "Mulish-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .home .travelsy {
+    top: 3px;
+    font-family: "Space Grotesk-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    position: absolute;
+    left: 0;
+    color: transparent;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .home .span {
+    color: #4691f2;
+  }
+  
+  .home .text-wrapper-9 {
+    color: #191212;
+  }
+  
+  /* ---- next Section------ */
+  
+
+  .home .overlap-2{
+    position: absolute;
+    width: 1769px;
+    height: 1492px;
+    top: 152px;
+    left: -169px;
+    
+  }
+  .home .hero-section {
+    position: absolute;
+    width: 1600px;
+    height: 766px;
+    top: 0;
+    left: 169px;
+    background-image: url(map.jpeg);
+    background-size: cover;
+    
+    background-position: 50% 50%;
+  }
+  
+  .home .content {
+    position: absolute;
+    width: 546px;
+    height: 364px;
+    top: 201px;
+    left: 245px;
+  }
+
+  .home .relax{
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    color: #1A1313; 
+    font-size: 24px; 
+    font-family: Bunny; 
+    font-weight: 400; 
+    line-height: 34px; 
+    word-wrap: break-word
+  }
+  .home .choose-travelsy{
+    position: absolute;
+    width: 540px;
+    top: 38px;
+    left: 0;
+    color: transparent;
+  }
+
+  .home .text-wrapper-10{
+    color: #191212;
+    font-size: 58px;
+    font-family: Space Grotesk;
+    font-weight: 700;
+    line-height: 68px;
+    word-wrap: break-word
+  }
+  .home .text-wrapper-11{
+    color: #4691f2;
+    font-size: 58px;
+    font-family: Space Grotesk;
+    font-weight: 700;
+    line-height: 68px;
+    word-wrap: break-word
+  }
+  .home .p{
+    width: 540px;
+    top: 194px;
+    position: absolute;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+    font-family: Mulish;
+    font-weight: 600;
+    line-height: 26px;
+    word-wrap: break-word
+  }
+
+  .home .button {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 14px 26px;
+    position: absolute;
+    top: 312px;
+    left: 0;
+    background-color: #4691f2;
+    border-radius: 30px;
+     
+  }
+  .home .banner-image{
+    position: absolute;
+    width: 540px;
+    height: 566px;
+    top: 100px;
+    left: 815px;
+  }
+
+  .home .rectangle-5{
+    position: absolute;
+    width: 203px;
+    height: 739px;
+    top: 750px;
+    left: 231px;
+    transform: rotate(-45deg);
+    background: linear-gradient(180deg, rgb(70 , 145, 242)0%,  rgba(70, 145, 242, 0) 100%);
+  } 
+  
+  .home .about-image {
+    width: 1109px;
+    top: 978px;
+    left: 414px;
+    position: absolute;
+    height: 514px;
+  }
+
+  

@@ -1,0 +1,25 @@
+.pic{
+    width: 600px;
+    height: 600px;
+    border-radius: 100%;
+    margin: 25px #010101;
+    border: 12px black solid;
+    filter:brightness(70%) ;
+    background-image: url(ak1.jpg);
+    background-position-x: center;
+    background-position-y:center;
+    background-size: 130%;
+    
+     
+}
+body{
+    background-color:darkcyan ;
+}
+.butt{
+    padding: 5px;
+    margin: 15px black;
+    border: 4px #010101;
+
+
+}
+
